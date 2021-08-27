@@ -5,6 +5,7 @@ CairoSVG>=2.5.2
 faker>=6.6.2
 html5lib
 langdetect>=1.0.8
+google-trans-new
 geopy>=2.1.0
 PyYAML>=5.4.1
 selenium>=3.141.0
