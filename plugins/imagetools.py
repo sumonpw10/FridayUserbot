@@ -859,12 +859,12 @@ async def slogo(client, message):
         await client.send_photo(
             message.chat.id,
             photo=fname2,
-            caption="Made Using FridayUserBot",
+            caption="Made in one sec !",
             reply_to_message_id=message.reply_to_message.message_id,
         )
     else:
         await client.send_photo(
-            message.chat.id, photo=fname2, caption="Made Using FridayUserBot"
+            message.chat.id, photo=fname2, caption="Made in one sec !"
         )
     await event.delete()
     if os.path.exists(fname2):
@@ -904,7 +904,7 @@ async def adityalogo(client, message):
         await client.send_photo(
             message.chat.id,
             photo=file_name,
-            caption="Made Using FridayUserBot",
+            caption="Made in one sec !",
             reply_to_message_id=message.reply_to_message.message_id,
         )
     else:
