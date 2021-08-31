@@ -822,7 +822,7 @@ async def picgen(client, message):
 @friday_on_cmd(
     ["slogo"],
     cmd_help={
-        "help": "Create A logo with given text!",
+        "help": "Create A Logo with given text!",
         "example": "{ch}slogo (text for logo)",
     },
 )
