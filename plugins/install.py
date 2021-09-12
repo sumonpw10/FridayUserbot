@@ -16,8 +16,8 @@ from main_startup.helper_func.basic_helpers import edit_or_reply
 @friday_on_cmd(
     ["install"],
     cmd_help={
-        "help": "Install Custom Plugins In Userbot",
-        "example": "{ch}install (replying to plugin (.py))",
+        "help": "Install Custom Pluginss In Userbot",
+        "example": "{ch}install (replying to plugins (.py))",
     },
 )
 async def installer(client, message):
